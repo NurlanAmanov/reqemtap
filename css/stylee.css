@@ -54,6 +54,7 @@ h6 i{
     margin-left:10px ;
 }
 marquee{
+
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
 }
@@ -81,7 +82,9 @@ marquee{
     margin: auto;
 
 }
-
+.content-text{
+    padding: 5px;
+}
 .buttons a {
 
     text-decoration: none;
@@ -108,14 +111,14 @@ marquee{
 
 #btn1 {
     width: 40%;
-    height: auto;
+    height: 40px;
     border-radius: 10% 20% 20%;
     border: none;
     background: orange;
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 0;
+   
     transition: .5s ease;
     margin-bottom: 10px;
 
@@ -124,15 +127,15 @@ marquee{
 
 #btn2 {
     margin: 0 10px;
-    width: 40%;
-    height: auto;
+    width: 50%;
+    height: 40px;
     border-radius: 10% 20% 20%;
     border: none;
     background: orange;
     color: #fff;
-    font-size: 1.3em;
+    font-size: 1em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 10px 0;
+    
     transition: .5s ease;
 
 
@@ -367,4 +370,11 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.6em;
     text-transform: uppercase;
-}}
+}
+marquee{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+
+}
