@@ -13,6 +13,194 @@
 }
 
 .content {
+padding: 20px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+
+
+
+    color: #fff;
+}
+
+.content2 {
+
+    height: auto;
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    color: #fff;
+    background: linear-gradient(150deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 20px;
+    background-size: 1800% 1800%;
+
+    animation: fon 18s infinite ease;
+}
+h6{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px auto;
+    color: #fff;
+    font-size: 1em;
+}
+h6 i{
+    font-size: 1em;
+    margin-left:10px ;
+}
+marquee{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+}
+@keyframes fon {
+
+    0% {
+        background-position: 0% 82% 
+    }
+
+    50% {
+        background-position: 100% 19%
+    }
+
+    100% {
+        background-position: 0% 82%
+    }
+}
+
+.buttons {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+
+}
+
+.buttons a {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+.buttons2 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin:  auto;
+
+}
+
+.buttons2 a {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+#btn1 {
+    width: 40%;
+    height: auto;
+    border-radius: 10% 20% 20%;
+    border: none;
+    background: orange;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    transition: .5s ease;
+    margin-bottom: 10px;
+
+
+}
+
+#btn2 {
+    margin: 0 10px;
+    width: 40%;
+    height: auto;
+    border-radius: 10% 20% 20%;
+    border: none;
+    background: orange;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    transition: .5s ease;
+
+
+}
+
+#btn1:hover {
+    background: green;
+    opacity: 1;
+
+}
+#btn2:hover {
+    background: red;
+    opacity: 1;
+
+}
+
+.content-text {
+    text-align: center;
+}
+
+h1 {
+
+    font-size: 1.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.info {
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    width: 30%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    margin: 20px 0;
+
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4em;
+}
+
+.cehd {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+@media only screen and (min-width: 768px){.gamearena {
+    background: url('../img/Mass\ Circles.svg')center/cover;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+
+}
+
+.content {
 
     margin-top: 150px;
     display: flex;
@@ -28,15 +216,16 @@
 
 .content2 {
 
-    height: 50%;
+    height: 100%;
+    padding: 20px;
     margin: 150px auto;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     width: 50%;
+    height: 50%;
     color: #fff;
-
     background: linear-gradient(150deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
     box-shadow: 0 0 10px #ccc;
     border-radius: 20px;
@@ -78,12 +267,21 @@ marquee{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     width: 100%;
     margin: auto;
 
 }
 
-.buttons a {
+.buttons2 a {
+
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.buttons2 a {
 
     text-decoration: none;
     color: #fff;
@@ -169,4 +367,4 @@ h2 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.6em;
     text-transform: uppercase;
-}
+}}
