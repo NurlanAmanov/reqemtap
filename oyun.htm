@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylee.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="gamearena">
+
+        <div class="content2">
+           
+            <div class="content-text">
+                
+                <h2>1 ilə 100 arası say tutdum, tapa bilərsən?</h2>
+                <input type="number" id="reqem" min="1" max="100">
+                <br>
+
+                <p class="cehd">Cehd sayı: <span id="cehd"> </span></p>
+            </div>
+
+        <div class="buttons">
+            <button id="btn1" onclick="yoxla()">Tap</button>
+            <button id="btn2"> <a href="index.htm">Menu</a></button>
+             </div>
+        </div>
+    </div>
+    <script>
+        const reqem=document.getElementById("reqem")
+        const cehd = document.getElementById("cehd")
+        
+
+        const x = rnd(1,100)
+        let cehd2= 1
+       
+        function yoxla(){
+            cehd.innerHTML=` ${cehd2++} `
+            cehd.innerHTML+=(reqem.value > x) ? 'Çoxdur':
+            (reqem.value < x) ? "Azdır":
+            "Tebrikler tapdin !!"
+            
+        }
+       
+        function rnd(min,max){
+            return Math.floor(Math.random()* (max - min +1))+min;
+        }
+    </script>
+</body>
+</html>
